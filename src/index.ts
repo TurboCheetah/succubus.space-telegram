@@ -11,7 +11,10 @@ const bot = new Telegraf<CommandContext>(app.token)
 bot.use(Middlewares, Commands)
 
 // Error handling
-bot.catch((err, ctx) => logger.error(`Ooops, encountered an error for ${ctx.updateType}\n ${err}`))
+bot.catch((err, ctx) => {
+  logger.error(`Oops, encountered an error for ${ctx.updateType}\n ${err}`)
+  ctx.reply('Oops, an error occurred')
+})
 
 // Start bot
 bot.launch().then(() => logger.success('Bot started'))
