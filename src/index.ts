@@ -2,11 +2,11 @@ import { Telegraf } from 'telegraf'
 import { Logger } from './structures/Logger'
 import Middlewares, { CommandContext } from './middlewares'
 import Commands from './commands'
-import config from './config'
+import { app } from './config'
 
 // Initialize stuff
 const logger = new Logger()
-const bot = new Telegraf<CommandContext>(config.token)
+const bot = new Telegraf<CommandContext>(app.token)
 
 bot.use(Middlewares, Commands)
 

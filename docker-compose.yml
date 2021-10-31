@@ -5,3 +5,5 @@ services:
         image: ghcr.io/turbocheetah/succubus.space-telegram:latest
         container_name: succubus.space-telegram
         restart: unless-stopped
+        environment:
+            - TOKEN=secret
