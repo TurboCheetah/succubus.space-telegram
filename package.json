@@ -16,7 +16,7 @@
   "author": "Turbo",
   "license": "MIT",
   "devDependencies": {
-    "@babel/eslint-parser": "^7.12.1",
+    "@babel/eslint-parser": "^7.16.0",
     "@types/common-tags": "^1.8.1",
     "@types/node": "^14.14.27",
     "@typescript-eslint/eslint-plugin": "^4.14.0",
