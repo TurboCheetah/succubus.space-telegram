@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "common-tags": "^1.8.0",
+    "common-tags": "^1.8.1",
     "dayjs": "^1.10.7",
     "dotenv-cra": "^3.0.2",
     "graphql": "^16.0.1",
