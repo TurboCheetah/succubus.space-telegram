@@ -30,7 +30,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.16.0":
+"@babel/core@npm:7.16.0":
   version: 7.16.0
   resolution: "@babel/core@npm:7.16.0"
   dependencies:
@@ -479,7 +479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__core@npm:^7":
+"@types/babel__core@npm:7.1.16":
   version: 7.1.16
   resolution: "@types/babel__core@npm:7.1.16"
   dependencies:
@@ -527,7 +527,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^7":
+"@types/eslint@npm:7.29.0":
   version: 7.29.0
   resolution: "@types/eslint@npm:7.29.0"
   dependencies:
@@ -2346,7 +2346,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^4.3.0":
+"eslint-plugin-react-hooks@npm:4.3.0":
   version: 4.3.0
   resolution: "eslint-plugin-react-hooks@npm:4.3.0"
   peerDependencies:
@@ -2355,7 +2355,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.27.1":
+"eslint-plugin-react@npm:7.27.1":
   version: 7.27.1
   resolution: "eslint-plugin-react@npm:7.27.1"
   dependencies:
@@ -2437,7 +2437,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.12.1":
+"eslint@npm:7.32.0":
   version: 7.32.0
   resolution: "eslint@npm:7.32.0"
   dependencies:
@@ -5763,11 +5763,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "succubus-space-telegram@workspace:."
   dependencies:
-    "@babel/core": ^7.16.0
+    "@babel/core": 7.16.0
     "@babel/eslint-parser": 7.16.3
-    "@types/babel__core": ^7
+    "@types/babel__core": 7.1.16
     "@types/common-tags": 1.8.1
-    "@types/eslint": ^7
+    "@types/eslint": 7.29.0
     "@types/node": 16.11.9
     "@typescript-eslint/eslint-plugin": 5.4.0
     "@typescript-eslint/parser": 5.4.0
@@ -5775,7 +5775,7 @@ __metadata:
     common-tags: ^1.8.2
     dayjs: ^1.10.7
     dotenv-cra: ^3.0.2
-    eslint: ^7.12.1
+    eslint: 7.32.0
     eslint-config-airbnb: 19.0.0
     eslint-config-prettier: 8.3.0
     eslint-config-standard: 16.0.3
@@ -5785,8 +5785,8 @@ __metadata:
     eslint-plugin-node: 11.1.0
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-promise: 5.1.1
-    eslint-plugin-react: ^7.27.1
-    eslint-plugin-react-hooks: ^4.3.0
+    eslint-plugin-react: 7.27.1
+    eslint-plugin-react-hooks: 4.3.0
     graphql: 15.x
     graphql-request: ^3.6.1
     nodemon: 2.0.15
