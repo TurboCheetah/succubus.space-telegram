@@ -21,11 +21,11 @@
     "@types/babel__core": "7.1.16",
     "@types/common-tags": "1.8.1",
     "@types/eslint": "7.29.0",
-    "@types/node": "16.11.9",
+    "@types/node": "16.11.10",
     "@typescript-eslint/eslint-plugin": "5.4.0",
     "@typescript-eslint/parser": "5.4.0",
     "eslint": "7.32.0",
-    "eslint-config-airbnb": "19.0.0",
+    "eslint-config-airbnb": "19.0.1",
     "eslint-config-prettier": "8.3.0",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-html": "6.2.0",
@@ -37,7 +37,7 @@
     "eslint-plugin-react": "7.27.1",
     "eslint-plugin-react-hooks": "4.3.0",
     "nodemon": "2.0.15",
-    "prettier": "2.4.1",
+    "prettier": "2.5.0",
     "standard-version": "9.3.2",
     "ts-node": "10.4.0",
     "typescript": "4.5.2"
@@ -51,5 +51,5 @@
     "graphql-request": "^3.6.1",
     "telegraf": "^4.4.2"
   },
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.1"
 }
