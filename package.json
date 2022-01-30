@@ -48,7 +48,7 @@
     "dayjs": "^1.10.7",
     "dotenv-cra": "^3.0.2",
     "graphql": "15.x",
-    "graphql-request": "^3.6.1",
+    "graphql-request": "^4.0.0",
     "telegraf": "^4.4.2"
   },
   "packageManager": "yarn@3.1.1"
