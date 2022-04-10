@@ -16,7 +16,7 @@
   "author": "Turbo",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "7.17.8",
+    "@babel/core": "7.17.9",
     "@babel/eslint-parser": "7.17.0",
     "@types/babel__core": "7.1.19",
     "@types/common-tags": "1.8.1",
@@ -29,7 +29,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-html": "6.2.0",
-    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "4.0.0",
