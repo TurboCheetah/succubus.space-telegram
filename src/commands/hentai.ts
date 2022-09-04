@@ -56,14 +56,14 @@ bot.command('hentai', async ctx => {
       }
     `
   }
-  
-  let search: {name?: string; id?: number}
+
+  let search: { name?: string; id?: number }
   if (isNaN(ctx.state.command.args)) {
-    search = {name: ctx.state.command.args}
+    search = { name: ctx.state.command.args }
   } else {
-    search = {id: +ctx.state.command.args}
+    search = { id: +ctx.state.command.args }
   }
-  ({ hentai } = await request('https://api.succubus.space/graphql', query, search))
+  ;({ hentai } = await request('https://api.succubus.space/graphql', query, search))
 
   if (hentai.invalid) return ctx.reply('Hentai not found')
 
