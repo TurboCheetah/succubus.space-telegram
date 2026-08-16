@@ -1503,6 +1503,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commit-and-tag-version@npm:9.5.0":
+  version: 9.5.0
+  resolution: "commit-and-tag-version@npm:9.5.0"
+  dependencies:
+    chalk: ^2.4.2
+    conventional-changelog: 3.1.25
+    conventional-changelog-config-spec: 2.1.0
+    conventional-changelog-conventionalcommits: 4.6.3
+    conventional-recommended-bump: 6.1.0
+    detect-indent: ^6.0.0
+    detect-newline: ^3.1.0
+    dotgitignore: ^2.1.0
+    figures: ^3.1.0
+    find-up: ^5.0.0
+    git-semver-tags: ^4.0.0
+    semver: ^7.1.1
+    stringify-package: ^1.0.1
+    yargs: ^16.0.0
+  bin:
+    commit-and-tag-version: bin/cli.js
+  checksum: 509f94677d458f15522975399cedda590b6810ccc84a9e72278fa36d57f0a657bc94eea57feb333c3b929da3a75c3bb267232fc7fc892e1dfa2434d335c43637
+  languageName: node
+  linkType: hard
+
 "common-tags@npm:^1.8.2":
   version: 1.8.2
   resolution: "common-tags@npm:1.8.2"
@@ -5701,30 +5725,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"standard-version@npm:9.5.0":
-  version: 9.5.0
-  resolution: "standard-version@npm:9.5.0"
-  dependencies:
-    chalk: ^2.4.2
-    conventional-changelog: 3.1.25
-    conventional-changelog-config-spec: 2.1.0
-    conventional-changelog-conventionalcommits: 4.6.3
-    conventional-recommended-bump: 6.1.0
-    detect-indent: ^6.0.0
-    detect-newline: ^3.1.0
-    dotgitignore: ^2.1.0
-    figures: ^3.1.0
-    find-up: ^5.0.0
-    git-semver-tags: ^4.0.0
-    semver: ^7.1.1
-    stringify-package: ^1.0.1
-    yargs: ^16.0.0
-  bin:
-    standard-version: bin/cli.js
-  checksum: 55003206f7eca18ee9962566e5222d3930a1fa3c4692615d64e88f08873b9685837d669dc58361831bd3f211b6687c1681ad6a1749edf346b2db3e4564b4933c
-  languageName: node
-  linkType: hard
-
 "stop-iteration-iterator@npm:^1.0.0":
   version: 1.0.0
   resolution: "stop-iteration-iterator@npm:1.0.0"
@@ -5933,6 +5933,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.51.0
     "@typescript-eslint/parser": 5.51.0
     chalk: ^4.1.2
+    commit-and-tag-version: 9.5.0
     common-tags: ^1.8.2
     dayjs: ^1.10.7
     dotenv-cra: ^3.0.2
@@ -5952,7 +5953,6 @@ __metadata:
     graphql-request: ^5.0.0
     nodemon: 2.0.20
     prettier: 2.8.4
-    standard-version: 9.5.0
     telegraf: ^4.4.2
     ts-node: 10.9.1
     typescript: 4.9.5
